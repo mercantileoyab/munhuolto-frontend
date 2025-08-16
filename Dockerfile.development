@@ -22,8 +22,19 @@ COPY . .
 # Build the app for production
 RUN npm run build
 
-# FROM jwilder/nginx-proxy:alpine
 FROM nginx:latest
+
+# Create a non-root user and group
+RUN addgroup --system appgroup && adduser --system --ingroup appgroup appuser
+
+# Change ownership of the web root to the new user
+RUN chown -R appuser:appgroup /usr/share/nginx/html
+
 EXPOSE 80
 COPY nginx.conf /etc/nginx
 COPY --from=builder /app/build /usr/share/nginx/html
+
+# Switch to non-root user
+USER appuser
+
+# Start nginx (use default command)
