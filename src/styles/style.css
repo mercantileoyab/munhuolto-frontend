@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.content {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* margin-top: 30px; */
+}
+
+.logo {
+    width: 250px;
+}
+
+.workhop-grid-desktop {
+    margin: 20px;
+}
+
+/* .map {
+    height: 800px;
+} */
+
+.userLocationButton {
+    max-width: 150px;
+}
+
+.workhop-grid-desktop {
+    max-height: 750px;
+}
+
+.headerInfo {
+    background-color: #51546430;
+    padding: 20px;
+    padding: 50px;
+}
+
+.headerInfoWithOutPadding {
+    background-color: #51546430;
+    padding: 20px;
+    /* padding: 50px; */
+    margin-bottom: 20px;
+}
+
+/* .headerInfoHeader {
+    margin-top: 30px;
+} */
+
+.map {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* .headerInfoHeader {
+    font-family: 'Luckiest Guy', cursive; 
+} */
+
+.headerInfoText {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+.workshops-grid {
+    padding: 20px;
+    /* background-color: rgb(231, 231, 231); */
+}
+
+.workshop-page {
+    padding: 20px;
+}
+
+.infoButton {
+    max-width: 400px;
+    margin: auto;
+}
+
+.workshop-grid-item {
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* .workshop-card {
+    max-width: 850px; 
+} */
+
+.workshop-card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workshop-page_steps {
+        max-width: 800px;
+        margin: auto;
+}
+
+.custom-stepper {
+    margin-bottom: 10px;
+}
+
+/* .custom-stepper-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.seo {
+    background-color: rgb(239, 239, 239);
+}
+.workshop-calendar {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+      
+}
+.registerplate {
+    margin-top: 20px;
+}
+.selected-custom-day-slide {
+    background-color: black;
+}
+/* .infoRegisterPlate {
+    background-color: rgb(95, 93, 93);
+} */
+/* .custom-day-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+} */
+
+.car_info {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(235, 245, 248); 
+    max-width: 800px;
+}
+.car_info_plate {
+    margin-left: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.booking-confirmed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    padding: 40px;
+}
+
+.booking-confirmed-image {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.booking-info {
+    padding: 20px;;
+}
+
+.cancel-booking-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: rgb(227, 227, 227);
+    color: rgb(49, 49, 49);
+    padding: 30px;
+    /* text-align: center; */
+}
+
+/* Mobile viewport styles */
+@media (max-width: 767px) {
+    .content {
+        margin-top: 0px; /* override for mobile */
+        
+    }
+    .logo {
+        width: 150px;
+    }
+    .headerInfo {
+        background-color: rgb(46, 45, 45);
+        padding: 20px;
+    }
+    .headerInfoHeader {
+        color: rgb(231, 231, 231);
+        text-align: left;
+    }
+    .headerInfoText {
+        color: rgb(231, 231, 231);
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .map {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .userLocationButton {
+        width: 100%;
+        max-width: none;
+    }
+    .workshops-grid {
+        /* padding: 20px; */
+        background-color: rgb(255, 254, 254);
+    }
+    /* .infoButton {
+        max-width: 20px;
+        margin: auto;
+    } */
+    .registerplate {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .workshop-page {
+        /* background-color: rgb(245, 247, 247); */
+    }
+    .workshop-calendar {
+    background-color: white;
+    }
+    .car_info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        /* width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);*/
+        background-color: rgb(235, 245, 248); 
+    }
+    
+}
+
+/* iPad viewport styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .content {
+        margin-top: 10px; /* override for iPad */
+        width: 700px;
+    }
+    .logo {
+        width: 200px;
+    }
+    .car_info {
+        max-width: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        /* width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-right: calc(-50vw + 50%);*/
+        background-color: rgb(235, 245, 248); 
+    }
+}

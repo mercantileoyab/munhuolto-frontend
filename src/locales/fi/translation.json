@@ -1,0 +1,170 @@
+{
+    "HeaderInfo": {
+        "headerInfoHeader": "Huolto autollesi - helposti ja nopeasti",
+        "headerInfoText": "Syötä sijainti ja rekisterinumero - näet heti autosi huoltotiedot ja voit rajata hakua huollon tyypin tai etäisyyden mukaan. Varaa aika suoraan verkossa muutamassa minuutissa.",
+        "headerInfoList": {
+            "item1": "Autokohtaiset huollot rekisterinumerolla",
+            "item2": "Hakurajaus sijainnin, huollon ja etäisyyden mukaan",
+            "item3": "Helppo ja nopea ajanvaraus"
+        }
+    },
+    "workshop": {
+        "workshopDistance": "Etäisyys: ",
+        "email": "Sähköposti: ",
+        "phone": "Puhelin: "
+    },
+
+    "electricVehicles": {
+        "headerText": "Myös sähköautoille",
+        "onlyServicesText": "Sähköautojen huolto",
+        "diagnosticsText": "Sähköautojen huolto, korjaus ja diagnostiikka",
+        "batteryText": "Sähköautojen akkujen huolto, korjaus, diagnostiikka sekä akun korjaus ja -vaihto"
+    },
+
+    "vehicleListing": {
+        "headerTextExcluding": "Huoltaa vain merkkejä",
+        "headerTextSpecialized": "Erikoistunut merkkeihin"
+    },
+
+    "rating": {
+        "noRatings": "Ei arvosteluja vielä"
+    },
+
+    "userLocation": {
+        "locationHeader": "Sijaintisi",
+        "locationText": "Käytä nykyistä sijaintia",
+        "textFieldPlaceholder": "Kaupunki, postinumero tai osoite"
+    },
+
+    "filter": {
+        "header": "Rajaa hakua",
+        "textFieldPlaceholder": "Palvelut ja etäisyys"
+    },
+
+    "customStepper": {
+        "step1": "Päivä ja auto",
+        "step2": "Vahvista varauksesi",
+        "step3": "Varauksesi"
+    },
+
+    "workshopCalendar": {
+        "selectDate": "Valitse päivä"
+    },
+
+    "infoRegisterPlate": {
+        "infoRegisterPlateText": "Anna rekisterinumerosi, jotta voimme varmistaa huoltovarauksen suorittamisen onnistuneesti."
+    },
+
+    "infoForNext": {
+        "noPlateOrDate": "Valitse ajoneuvo ja haluttu päivämäärä huollolle ennen siirtymistä varauksen vahvistukseen.",
+        "noPlate": "Valitse vielä ajoneuvo.",
+        "noDate": "Valitse vielä haluttu päivämäärä huollolle.",
+        "noSelectedServices": "Valitse vielä halutut huollot."
+    },
+    "infoForConfirmation": {
+        "text": "Tarkista varauksesi tiedot ennen lopullista vahvistusta. Varmista, että kaikki tiedot ovat oikein. Varauksen voi peruuttaa veloituksetta vuorokautta ennen huoltoa. Peruutus onnistuu varausvahvistuksen kautta, vaikka varaus olisi jo vahvistettu."
+    },
+
+    "registerPlate": {
+        "label": "Rekisterinumero",
+        "mileage": "Kilometrit",
+        "errorText": "Rekisterinumeroa ei löytynyt",
+        "searchButton": "Hae rekisterinumerolla"
+    },
+    
+    "car": {
+        "mileage": "Kilometrit",
+        "noMileage": "Kilometrimäärä ei ole saatavilla",
+        "noBrand": "Auton mallia ei ole saatavilla"
+    },
+
+    "contactInfo": {
+        "title": "Yhteystiedot",
+        "name": "Nimi",
+        "email": "Sähköposti",
+        "phone": "Puhelin",
+        "note": "Viesti korjaamolle",
+        "notePlaceholder": "Kirjoita viestisi tähän",
+        "marketingConsent": "Hyväksyn markkinointiviestinnän",
+        "marketingConsentDescription": "Hyväksyn, että korjaamo voi lähettää minulle markkinointiviestintää, kuten tarjouksia ja uutisia.",
+        "serviceConsent": "Hyväksyn palvelun ehdot"
+    },
+
+    "workshopAndDate": {
+        "title": "Varauksen yhteenveto",
+        "workshop": "Korjaamo",
+        "date": "Päivämäärä",
+        "time": "Aika",
+        "selectWorkshop": "Valitse korjaamo",
+        "selectDate": "Valitse päivämäärä",
+        "selectedServices": "Valitut huollot",
+        "selectedExtraServices": "Valitut lisäpalvelut",
+        "noEmail": "Sähköpostiosoitetta ei ole saatavilla",
+        "noPhone": "Puhelinnumeroa ei ole saatavilla"
+    },
+
+    "bookingConfirmation": {
+        "title": "Varaus vahvistettu",
+        "confirmationText": "Kiitos varauksestasi! Saat vahvistuksen sähköpostiisi."
+    },
+
+    "baseServices": {
+        "title": "Valitse huolto",
+        "extraServices": "Lisäpalvelut"
+    },
+
+    "bookingInfo": {
+        "title": "Toimi näin kun tuot autosi huoltoon",
+        "arrival": {
+            "title": "Saapuminen",
+            "open": "Aukioloajat",
+            "info": "Saavu paikalle ajoissa (mielellään aamulla viimeistään klo 9:00). Ota mukaan huoltokirja (jos sellainen on) ja varaudu mahdollisiin lisätöihin."
+        },
+        "parking": {
+            "title": "Pysäköinti ja valmistelu",
+            "info": "Korjaamolla on pysäköintitilaa asiakkaille. Pysäköi autosi merkitylle alueelle.",
+            "note": "Kerro mahdollisista vioista tai huoltotoiveista korjaamolle."
+        },
+        "checkIn": {
+            "title": "Ilmoitaudu vastaanotossa",
+            "info": "Aukioloaikoina: tule sisälle tiskille, kerro nimesi ja rekisterinumero.",
+            "note": "Aukioloaikojen ulkopuolella: käytä avainlaatikkoa ja pudota avaimet."
+        },
+        "confirmationAndContact": {
+            "title": "Vahvistus ja yhteydenpito",
+            "info": "Saat vahvistuksen sähköpostiisi. Voit ottaa yhteyttä korjaamoon puhelimitse tai sähköpostitse, jos sinulla on kysyttävää.",
+            "contactInfo": "Korjaamon yhteystiedot löydät varausvahvistuksesta."
+        },
+        "payment": {
+            "title": "Maksaminen",
+            "info": "Maksu suoritetaan paikan päällä. Voit maksaa käteisellä tai kortilla.",
+            "note": "Pyydä kuitti maksusta."
+        },
+        "extra": "Kysyttävää? Ota yhteyttä korjaamoon suoraan tai lähetä meille viesti."
+    },
+
+    "footer": {
+        "footerText": "Huoltolaskuri.fi on suomalainen palvelu, joka auttaa sinua löytämään autollesi sopivat huollot ja varaamaan ajan helposti verkossa.",
+        "privacyPolicy": "Tietosuojakäytäntö",
+        "termsOfService": "Käyttöehdot",
+        "contactUs": "Ota yhteyttä",
+        "aboutUs": "Tietoa meistä",
+        "cookiePolicy": "Evästekäytäntö",
+        "notifyIllegalContent": "Ilmoita laittomasta sisällöstä"
+    },
+
+    "error": {
+        "notFound": "Sivua ei löydy",
+        "serverError": "Palvelinvirhe, yritä myöhemmin uudelleen"
+    },
+    "actions": {
+        "save": "Tallenna",
+        "cancel": "Peruuta varaus",
+        "delete": "Poista",
+        "search": "Hae",
+        "next": "Seuraava",
+        "choose": "Valitse",
+        "confirm": "Vahvista",
+        "normalCancel": "Peruuta"
+    }
+}

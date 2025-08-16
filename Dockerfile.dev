@@ -1,0 +1,24 @@
+# Use Node.js 18 as the base image
+FROM node:18
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy only package.json and package-lock.json first (for better Docker cache)
+COPY package*.json ./
+
+# Install all dependencies
+RUN npm install --legacy-peer-deps
+
+# Copy rest of the application code
+COPY . .
+
+# Expose the port that React dev server will use
+EXPOSE 3000
+
+# Set environment variables
+ENV CHOKIDAR_USEPOLLING=true
+# ENV REACT_APP_BACKEND_URL=http://127.0.0.1:3000/api
+
+# Start the React development server
+CMD ["npm", "start"]

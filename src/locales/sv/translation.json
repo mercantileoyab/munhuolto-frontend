@@ -1,0 +1,152 @@
+{
+    "HeaderInfo": {
+        "headerInfoHeader": "Service för din bil – enkelt och snabbt",
+        "headerInfoText": "Ange plats och registreringsnummer – du ser genast din bils serviceinformation och kan filtrera sökningen efter servicetyp eller avstånd. Boka tid direkt online på några minuter.",
+        "headerInfoList": {
+            "item1": "Bil-specifika service med registreringsnummer",
+            "item2": "Sökfilter enligt plats, service och avstånd",
+            "item3": "Enkel och snabb tidsbokning"
+        }
+    },
+    "workshop": {
+        "workshopDistance": "Avstånd: ",
+        "email": "Email: ",
+        "phone": "Telefon : "
+    },
+    "electricVehicles": {
+        "headerText": "Också för elbilar",
+        "onlyServicesText": "Elbilsservice",
+        "diagnosticsText": "Elbilsservice, reparation och diagnostik",
+        "batteryText": "Elbilbatteriers service, reparation, diagnostik samt batterireparation och -byte"
+    },
+    "vehicleListing": {
+        "headerTextExcluding": "Service bara märken",
+        "headerTextSpecialized": "Specialiserad på märken"
+    },
+    "rating": {
+        "noRatings": "Inga betyg ännu"
+    },
+    "userLocation": {
+        "locationHeader": "Din plats",
+        "locationText": "Använd nuvarande plats",
+        "textFieldPlaceholder": "Stad, postnummer eller adress"
+    },
+    "filter": {
+        "header": "Begränsa sökning",
+        "textFieldPlaceholder": "Service och avstånd"
+    },
+    "customStepper": {
+        "step1": "Datum och tid",
+        "step2": "Bekräfta din bokning",
+        "step3": "Din bokning"
+    },
+    "workshopCalendar": {
+        "selectDate": "Välj dag"
+    },
+    "registerPlate": {
+        "label": "Registreringsnummer",
+        "mileage": "Kilometer",
+        "errorText": "Registreringsnummer hittades inte",
+        "searchButton": "Sök med registreringsnummer"
+    },
+    "infoRegisterPlate": {
+        "infoRegisterPlateText": "Ange ditt registreringsnummer så att vi kan säkerställa att din servicebokning slutförs korrekt."
+    },
+    "infoForConfirmation": {
+        "text": "Kontrollera dina bokningsuppgifter innan du slutgiltigt bekräftar. Se till att alla uppgifter är korrekta. Bokningen kan avbokas kostnadsfritt fram till ett dygn före servicen. Avbokning kan göras via bokningsbekräftelsen, även om bokningen redan har bekräftats."
+    },
+    "infoForNext": {
+        "noPlateOrDate": "Ny ska vi välja ett fordon och det önskade service datumet innan vi går vidare till att bekräfta bokningen.",
+        "noPlate": "Ny ska vi välja ett fordon.",
+        "noDate": "Ny ska vi välja det önskade service datumet.",
+        "noSelectedServices": "Ny ska vi välja de önskade tjänsterna."
+    },
+    "car": {
+        "mileage": "Kilometer",
+        "noMileage": "Kilometermängd är inte tillgänglig",
+        "noBrand": "Bilmodell är inte tillgänglig"
+    },
+    "contactInfo": {
+        "title": "Kontaktuppgifter",
+        "name": "Namn",
+        "email": "E-post",
+        "phone": "Telefon",
+        "note": "Meddelande till verkstaden",
+        "notePlaceholder": "Skriv ditt meddelande här",
+        "marketingConsent": "Jag godkänner marknadsföringskommunikation",
+        "marketingConsentDescription": "Jag godkänner att verkstaden får skicka marknadsföringskommunikation till mig, såsom erbjudanden och nyheter.",
+        "serviceConsent": "Jag godkänner tjänstens villkor"
+    },
+    "workshopAndDate": {
+        "title": "Bokningsöversikt",
+        "workshop": "Verkstad",
+        "date": "Datum",
+        "time": "Tid",
+        "selectWorkshop": "Välj verkstad",
+        "selectDate": "Välj datum",
+        "selectedServices": "Valda tjänster",
+        "selectedExtraServices": "Valda tilläggstjänster",
+        "noEmail": "E-postadress inte tillgänglig",
+        "noPhone": "Telefonnummer inte tillgängligt"
+    },
+    "bookingConfirmation": {
+        "title": "Bokning bekräftad",
+        "confirmationText": "Tack för din bokning! Du får en bekräftelse till din e-post."
+    },
+    "baseServices": {
+        "title": "Välj tjänst",
+        "extraServices": "Tilläggstjänster"
+    },
+    "bookingInfo": {
+        "title": "Så här gör du när du lämnar in din bil på service",
+        "arrival": {
+            "title": "Ankomst",
+            "open": "Öppettider",
+            "info": "Kom i tid (helst på morgonen, senast kl. 9:00). Ta med serviceboken (om du har en) och var beredd på eventuella tilläggsarbeten."
+        },
+        "parking": {
+            "title": "Parkering och förberedelse",
+            "info": "Det finns parkeringsplatser för kunder vid verkstaden. Parkera din bil på anvisad plats.",
+            "note": "Informera verkstaden om eventuella fel eller serviceönskemål."
+        },
+        "checkIn": {
+            "title": "Anmäl dig i receptionen",
+            "info": "Under öppettider: gå in till disken, uppge ditt namn och registreringsnummer.",
+            "note": "Utanför öppettider: använd nyckellådan och lämna nycklarna där."
+        },
+        "confirmationAndContact": {
+            "title": "Bekräftelse och kontakt",
+            "info": "Du får en bekräftelse till din e-post. Du kan kontakta verkstaden via telefon eller e-post om du har frågor.",
+            "contactInfo": "Verkstadens kontaktuppgifter finns i bokningsbekräftelsen."
+        },
+        "payment": {
+            "title": "Betalning",
+            "info": "Betalning sker på plats. Du kan betala med kontanter eller kort.",
+            "note": "Be om ett kvitto för betalningen."
+        },
+        "extra": "Frågor? Kontakta verkstaden direkt eller skicka ett meddelande till oss."
+    },
+    "footer": {
+        "footerText": "Huoltolaskuri.fi är en finsk tjänst som hjälper dig att hitta lämplig service för din bil och boka tid enkelt online.",
+        "privacyPolicy": "Integritetspolicy",
+        "termsOfService": "Användarvillkor",
+        "contactUs": "Kontakta oss",
+        "aboutUs": "Om oss",
+        "cookiePolicy": "Cookiepolicy",
+        "notifyIllegalContent": "Anmäl olagligt innehåll"
+    },
+    "error": {
+        "notFound": "Sidan hittades inte",
+        "serverError": "Serverfel, försök igen senare"
+    },
+    "actions": {
+        "save": "Spara",
+        "cancel": "Avbryt bokning",
+        "delete": "Ta bort",
+        "search": "Söka",
+        "next": "Nästa",
+        "choose": "Välj",
+        "confirm": "Bekräfta",
+        "normalCancel": "Avbryt"
+    }
+}

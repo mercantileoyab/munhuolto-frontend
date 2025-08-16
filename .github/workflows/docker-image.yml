@@ -1,0 +1,45 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+      - qa
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Login to Docker Hub
+        run: |
+          echo ${{ secrets.DOCKER_HUB_PASSWORD }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} --password-stdin
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+      - name: Build and push Docker image
+        run: |
+          if [ "$GITHUB_REF" == "refs/heads/main" ]; then
+            REPO_NAME="munhuolto-frontend-main"
+            DOCKERFILE="Dockerfile.prod"
+          elif [ "$GITHUB_REF" == "refs/heads/dev" ]; then
+            REPO_NAME="munhuolto-frontend-dev"
+            DOCKERFILE="Dockerfile.development"
+          elif [ "$GITHUB_REF" == "refs/heads/qa" ]; then
+            REPO_NAME="munhuolto-frontend-qa"
+            DOCKERFILE="Dockerfile.qa"
+          else
+            echo "Unsupported branch: $GITHUB_REF"
+            exit 1
+          fi
+          docker build \
+            --build-arg REACT_APP_BACKEND_URL=${{ secrets.REACT_APP_BACKEND_URL }} \
+            --build-arg REACT_APP_GOOGLE_API_KEY=${{ secrets.REACT_APP_GOOGLE_API_KEY }} \
+            -t niikar/$REPO_NAME:latest \
+            -f $DOCKERFILE .
+          docker push niikar/$REPO_NAME:latest

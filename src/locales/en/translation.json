@@ -1,0 +1,152 @@
+{
+    "HeaderInfo": {
+        "headerInfoHeader": "Service for your car – easily and quickly",
+        "headerInfoText": "Enter your location and license plate – you will immediately see your car's service information and can filter the search by service type or distance. Book an appointment online in just a few minutes.",
+        "headerInfoList": {
+            "item1": "Car-specific services with license plate",
+            "item2": "Search filtering by location, service, and distance",
+            "item3": "Easy and fast appointment booking"
+        }
+    },
+    "workshop": {
+        "workshopDistance": "Distance: ",
+        "email": "Email: ",
+        "phone": "Phone: "
+    },
+    "electricVehicles": {
+        "headerText": "Also for electric vehicles",
+        "onlyServicesText": "Electric vehicle service",
+        "diagnosticsText": "Electric vehicle service, repair and diagnostics",
+        "batteryText": "Electric vehicle battery service, repair, diagnostics and battery replacement"
+    },
+    "vehicleListing": {
+        "headerTextExcluding": "Service only brands",
+        "headerTextSpecialized": "Specialized in brands"
+    },
+    "rating": {
+        "noRatings": "No ratings yet"
+    },
+    "userLocation": {
+        "locationHeader": "Your location",
+        "locationText": "Use current location",
+        "textFieldPlaceholder": "City, postal code or address"
+    },
+    "filter": {
+        "header": "Limit search",
+        "textFieldPlaceholder": "Services and distance"
+    },
+    "customStepper": {
+        "step1": "Date and time",
+        "step2": "Confirm your booking",
+        "step3": "Your booking"
+    },
+    "workshopCalendar": {
+        "selectDate": "Choose date"
+    },
+    "infoRegisterPlate": {
+        "infoRegisterPlateText": "Enter your license plate number so we can ensure your service booking is completed successfully."
+    },
+    "infoForConfirmation": {
+        "text": "Check your reservation details before final confirmation. Make sure all information is correct. The reservation can be cancelled free of charge up to one day before the service. You can cancel your reservation through the confirmation link, even if the reservation has already been confirmed."
+    },
+    "infoForNext": {
+        "noPlateOrDate": "Let's select a vehicle and the desired service date before proceeding to confirm the booking.",
+        "noPlate": "Let's select a vehicle.",
+        "noDate": "Let's select the desired service date.",
+        "noSelectedServices": "Let's select the desired services."
+    },
+    "registerPlate": {
+        "label": "License plate number",
+        "mileage": "Mileage",
+        "errorText": "License plate not found",
+        "searchButton": "Search by plate"
+    },
+    "car": {
+        "mileage": "Mileage",
+        "noMileage": "Mileage is not available",
+        "noBrand": "Car model is not available"
+    },
+    "contactInfo": {
+        "title": "Contact information",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "note": "Message to the workshop",
+        "notePlaceholder": "Write your message here",
+        "marketingConsent": "I accept marketing communication",
+        "marketingConsentDescription": "I agree that the workshop may send me marketing communications, such as offers and news.",
+        "serviceConsent": "I accept the terms of service"
+    },
+    "workshopAndDate": {
+        "title": "Booking summary",
+        "workshop": "Workshop",
+        "date": "Date",
+        "time": "Time",
+        "selectWorkshop": "Choose workshop",
+        "selectDate": "Choose date",
+        "selectedServices": "Selected services",
+        "selectedExtraServices": "Selected extra services",
+        "noEmail": "Email address not available",
+        "noPhone": "Phone number not available"
+    },
+    "bookingConfirmation": {
+        "title": "Booking Confirmed",
+        "confirmationText": "Thank you for your booking! You will receive a confirmation email shortly."
+    },
+    "baseServices": {
+        "title": "Choose service",
+        "extraServices": "Additional services"
+    },
+    "bookingInfo": {
+        "title": "Instructions for bringing your car in for service",
+        "arrival": {
+            "title": "Arrival",
+            "open": "Opening hours",
+            "info": "Arrive on time (preferably in the morning, no later than 9:00 AM). Bring your service book (if you have one) and be prepared for possible additional work."
+        },
+        "parking": {
+            "title": "Parking and preparation",
+            "info": "There is parking available for customers at the workshop. Park your car in the designated area.",
+            "note": "Inform the workshop of any faults or service requests."
+        },
+        "checkIn": {
+            "title": "Check in at reception",
+            "info": "During opening hours: come inside to the counter, give your name and license plate number.",
+            "note": "Outside opening hours: use the key drop box."
+        },
+        "confirmationAndContact": {
+            "title": "Confirmation and contact",
+            "info": "You will receive a confirmation by email. You can contact the workshop by phone or email if you have any questions.",
+            "contactInfo": "You can find the workshop's contact details in the booking confirmation."
+        },
+        "payment": {
+            "title": "Payment",
+            "info": "Payment is made on site. You can pay by cash or card.",
+            "note": "Ask for a receipt for your payment."
+        },
+        "extra": "Questions? Contact the workshop directly or send us a message."
+    },
+    "footer": {
+        "footerText": "Huoltolaskuri.fi is a Finnish service that helps you find suitable maintenance for your car and book an appointment easily online.",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "contactUs": "Contact us",
+        "aboutUs": "About us",
+        "cookiePolicy": "Cookie Policy",
+        "notifyIllegalContent": "Report illegal content"
+    },
+    "error": {
+        "notFound": "Page not found",
+        "serverError": "Server error, please try again later"
+    },
+    "actions": {
+        "save": "Save",
+        "cancel": "Cancel reservation",
+        "delete": "Delete",
+        "search": "Search",
+        "next": "Next",
+        "choose": "Choose",
+        "confirm": "Confirm",
+        "normalCancel": "Cancel"
+    }
+}
